@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+.br-desktop {
+    display: none;
+}
+
+.content-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section-2b {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.section--title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-bottom: 38px;
+}
+
+.section-2b__details {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tags-title__wrapper {
+    width: 100%;
+}
+
+.tags-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+
+.tag-item {
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(233, 0, 79);
+    line-height: 28px;
+    margin: 0 4px;
+    padding: 2px 20px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.section-2b__title {
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+}
+
+.section-2b__subtitle-wrapper {
+    width: 100%;
+}
+
+.section-2b__subtitle {
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    margin: 0 auto 35px;
+}
+
+.section-2b__subtitle:after,
+.section-2b__subtitle:before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(147,147,147,1) 50%,rgba(0,0,0,0) 100%);
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.product__wrapper {
+    width: 100%;
+}
+
+.product__image {
+    width: 100%;
+}
+
+.product__title {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.product-details,
+.product-list__title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.product-price {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.product-buttons__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product-button--light,
+.product-button--dark {
+    text-decoration: none;
+    width: 140px;
+    text-align: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.product-button--light {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(203, 203, 203);
+}
+
+.product-button--light:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.product-button--dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.product-button--dark:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(203, 203, 203);
+}
+
+.divider {
+    margin: 50px 0;
+    border-top: 2px solid rgb(203, 203, 203);
+    width: 100%;
+}
+
+.section-notes {
+    font-size: 10px;
+    margin-top: 28px;
+}
+
+.section-note__item {
+    display: block;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 576px) {
+    .section-2b__subtitle {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .section-2b__subtitle {
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .br-mobile {
+        display: none;
+    }
+
+    .br-desktop {
+        display: block;
+    }
+
+    .tags-title__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tags-wrapper {
+        width: 100px;
+        height: 42px;
+    }
+
+    .tag-item:nth-of-type(1) {
+        padding-top: 12px;
+    }
+
+    .tag-item {
+        width: 38px;
+        height: 38px;
+        line-height: 16px;
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+
+    .section-2b__title {
+        width: 310px;
+    }
+
+    .section-2b__subtitle {
+        width: 40%;
+    }
+
+    .product__wrapper {
+        width: 45%;
+        margin: 0 22px;
+    }
+
+    .product-details, .product-list__title {
+        font-size: 14px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .product-price {
+        margin: 20px 0 15px;
+    }
+
+    .section-notes {
+        margin-top: 48px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .section-2b {
+        padding: 40px;
+    }
+
+    .section-2b__subtitle {
+        width: 35%;
+    }
+}

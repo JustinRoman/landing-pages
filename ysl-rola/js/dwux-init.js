@@ -1,0 +1,2 @@
+var initSFToolkit=function(){var E=document.getElementById("DW-SFToolkit");var D=document.getElementById("DW-SFToolkit-config");var B="{}";if(D.dataset){B=D.dataset.data;}else{B=D.getAttribute("data-data");}var A=JSON.parse(B);D.parentElement.removeChild(D);var C=function(){E.contentWindow.initSFToolkit(E,window,A);
+};if(E.contentWindow.initSFToolkit){C();}else{E.contentWindow.addEventListener("load",C);}};if(document.getElementById("DW-SFToolkit")){initSFToolkit();}else{window.addEventListener("load",initSFToolkit);}

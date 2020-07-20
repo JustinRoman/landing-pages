@@ -1,0 +1,20 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+.prime html, .prime body, .prime div, .prime span, .prime applet, .prime object, .prime iframe,
+.prime h1, .prime h2, .prime h3, .prime h4, .prime h5, .prime h6, .prime p, .prime blockquote, .prime pre,
+.prime a, .prime abbr, .prime acronym, .prime address, .prime big, .prime cite, .prime code,
+.prime del, .prime dfn, .prime em, .prime img, .prime ins, .prime kbd, .prime q, .prime s, .prime samp,
+.prime small, .prime strike, .prime strong, .prime sub, .prime sup, .prime tt, .prime var,
+.prime b, .prime u, .prime i, .prime center,
+.prime dl, .prime dt, .prime dd, .prime ol, .prime ul, .prime li,
+.prime fieldset, .prime form, .prime label, .prime legend,
+.prime table, .prime caption, .prime tbody, .prime tfoot, .prime thead, .prime tr, .prime th, .prime td,
+.prime article, .prime aside, .prime canvas, .prime details, .prime embed,
+.prime figure, .prime figcaption, .prime footer, .prime header, .prime hgroup,
+.prime menu, .prime nav, .prime output, .prime ruby, .prime section, .prime summary,
+.prime time, .prime mark, .prime audio, .prime video {
+    font-size: 100%;
+    font: inherit;
+}
